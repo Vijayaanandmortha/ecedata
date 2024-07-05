@@ -46,8 +46,8 @@ function submitForm(e) {
     var thirdYearCgpa = document.getElementById("thirdYearCgpa").value;
     var backlogs = document.getElementById("backlogs").value;
 
-    var regulars_db = firebase.database().ref("Regulars_Submissions/" + PinNo);
-    var laterals_db = firebase.database().ref("Laterals_Submissions/" + PinNo);
+    var regulars_db = firebase.database().ref("Regulars_Submissions/" + pinNo);
+    var laterals_db = firebase.database().ref("Laterals_Submissions/" + pinNo);
 
     var newSubmission;
 
